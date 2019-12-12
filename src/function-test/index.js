@@ -37,8 +37,4 @@ function alphabetPosition(text) {
   return test;
 }
 
-let test="42 is the answer.";
-
-alphabetPosition(test);
-
 module.exports = alphabetPosition;
