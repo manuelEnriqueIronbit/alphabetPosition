@@ -17,7 +17,6 @@ function alphabetPosition(text) {
   let phraseArray = Array.from(text);
   //IGNORANDO LOS ESPACIOS DEL ARREGLO 
   let ignoreSpaces = phraseArray.filter(c=>c!=' ');
-  console.log(ignoreSpaces);
   
   for (element of ignoreSpaces){
     if(typeof element !== 'string'){
